@@ -16,6 +16,7 @@ class inmemorycache(Generic[T]):
 score_cache: inmemorycache[float] = inmemorycache()
 score_cache.set("model_accuracy", 0.945)
 score_cache.set("loss", 0.012)
+score_cache.set("invalid_entry", "not_a_number")
 
 acc = score_cache.get("model_accuracy")
 print("Retrieved Score:", acc)
