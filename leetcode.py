@@ -1,13 +1,12 @@
 class Solution:
-    def longestPalindrome(self, s: str) -> str:
-        ans=''
-        for i in range(len(s)):
-            ans=max(ans,expand(s,i,i), expand(s,i,i+1), key=len)
-        return ans
-            
-def expand(s,i,j):
-    while i>=0 and j<len(s) and s[i]==s[j]:
-        i-=1
-        j+=1
-    return s[i+1:j]
-
+    def longestCommonPrefix(self, strs: list[str]):
+        if not strs:
+            return ""
+        
+        prefix = strs[0]
+        for i in range(1, len(strs)):
+            while strs[i].find(prefix) != 0:
+                prefix = prefix[:-1]
+                if not prefix:
+                    return ""
+        return prefix
