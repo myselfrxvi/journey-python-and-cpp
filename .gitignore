@@ -4,3 +4,5 @@
 /.vscode
 /__pycache__
 /.mypy_cache
+./*.exe
+compile_flags.txt
