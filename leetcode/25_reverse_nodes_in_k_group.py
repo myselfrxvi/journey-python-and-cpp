@@ -1,7 +1,3 @@
-# LeetCode 25: Reverse Nodes in k-Group (Hard)
-# Pattern: In-Place Pointer Rewiring / Group Traversal
-# Time Complexity: O(N), Space Complexity: O(1)
-
 from typing import Optional
 
 class ListNode:
@@ -27,7 +23,6 @@ class Solution:
             group_next = kth.next
             first = group_rev.next
 
-            # Reverse group
             prev = group_next
             curr = first
             while curr != group_next:
@@ -36,7 +31,6 @@ class Solution:
                 prev = curr
                 curr = nxt
 
-            # Reconnect
             group_rev.next = kth
             group_rev = first
 

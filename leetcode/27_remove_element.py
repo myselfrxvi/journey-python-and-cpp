@@ -1,7 +1,3 @@
-# LeetCode 27: Remove Element (Easy)
-# Pattern: In-Place Two Pointers (Filtering)
-# Time Complexity: O(N), Space Complexity: O(1)
-
 from typing import List
 
 class Solution:

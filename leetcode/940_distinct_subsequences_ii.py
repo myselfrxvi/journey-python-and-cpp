@@ -1,7 +1,3 @@
-# LeetCode 940: Distinct Subsequences II (Hard)
-# Pattern: Dynamic Programming / Modulo Arithmetic / Duplicate Subtraction
-# Time Complexity: O(N), Space Complexity: O(1) (26 characters)
-
 class Solution:
     def distinctSubseqII(self, s: str) -> int:
         MOD = 10**9 + 7
@@ -17,6 +13,6 @@ class Solution:
 
 if __name__ == "__main__":
     sol = Solution()
-    print("aba:", sol.distinctSubseqII("aba"))  # 6
-    print("abc:", sol.distinctSubseqII("abc"))  # 7
-    print("aaa:", sol.distinctSubseqII("aaa"))  # 3
+    print("aba:", sol.distinctSubseqII("aba"))
+    print("abc:", sol.distinctSubseqII("abc"))
+    print("aaa:", sol.distinctSubseqII("aaa"))

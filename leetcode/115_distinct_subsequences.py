@@ -1,7 +1,3 @@
-# LeetCode 115: Distinct Subsequences (Hard)
-# Pattern: Dynamic Programming (Memoization / DFS)
-# Time Complexity: O(M * N), Space Complexity: O(M * N)
-
 class Solution:
     def numDistinct(self, s: str, t: str) -> int:
         memo = {}
@@ -21,4 +17,4 @@ class Solution:
 
 if __name__ == "__main__":
     s = Solution()
-    print("Distinct:", s.numDistinct("rabbbit", "rabbit"))  # 3
+    print("Distinct:", s.numDistinct("rabbbit", "rabbit"))

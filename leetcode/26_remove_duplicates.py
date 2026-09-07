@@ -1,7 +1,3 @@
-# LeetCode 26: Remove Duplicates from Sorted Array (Easy)
-# Pattern: In-Place Two Pointers (Reader & Writer)
-# Time Complexity: O(N), Space Complexity: O(1)
-
 from typing import List
 
 class Solution:

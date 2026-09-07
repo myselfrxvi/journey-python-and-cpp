@@ -1,7 +1,3 @@
-# LeetCode 22: Generate Parentheses (Medium)
-# Pattern: Backtracking
-# Time Complexity: O(4^n / sqrt(n)), Space Complexity: O(n)
-
 from typing import List
 
 class Solution:

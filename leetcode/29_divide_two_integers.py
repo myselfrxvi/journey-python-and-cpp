@@ -1,7 +1,3 @@
-# LeetCode 29: Divide Two Integers (Medium)
-# Pattern: Bit Manipulation (Exponential Doubling with <<)
-# Time Complexity: O((log N)^2), Space Complexity: O(1)
-
 class Solution:
     def divide(self, dividend: int, divisor: int) -> int:
         if dividend == -2147483648 and divisor == -1:
@@ -25,5 +21,5 @@ class Solution:
 
 if __name__ == "__main__":
     s = Solution()
-    print("10 / 3 =", s.divide(10, 3))    # 3
-    print("7 / -3 =", s.divide(7, -3))   # -2
+    print("10 / 3 =", s.divide(10, 3))
+    print("7 / -3 =", s.divide(7, -3))

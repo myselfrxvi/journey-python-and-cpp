@@ -1,7 +1,3 @@
-# LeetCode 01: Two Sum (Easy)
-# Pattern: Hash Map (Single Pass)
-# Time Complexity: O(N), Space Complexity: O(N)
-
 from typing import List
 
 class Solution:
@@ -16,4 +12,4 @@ class Solution:
 
 if __name__ == "__main__":
     s = Solution()
-    print("Test 1:", s.twoSum([2, 7, 11, 15], 9))  # [0, 1]
+    print("Test 1:", s.twoSum([2, 7, 11, 15], 9))

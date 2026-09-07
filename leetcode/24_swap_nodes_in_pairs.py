@@ -1,7 +1,3 @@
-# LeetCode 24: Swap Nodes in Pairs (Medium)
-# Pattern: Pointer Manipulation / Dummy Node
-# Time Complexity: O(N), Space Complexity: O(1)
-
 from typing import Optional
 
 class ListNode:
