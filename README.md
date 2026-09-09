@@ -8,7 +8,7 @@ A repository dedicated to end-to-end Python & C++ engineering mastery, algorithm
 
 ```text
 .
-├── leetcode/                      # Categorized LeetCode Solutions (Road to 100)
+├── leetcode/                      # Categorized LeetCode Solutions (Road to 1000)
 │   ├── arrays/                    # In-place two pointers, prefix sums, sliding window
 │   ├── strings/                   # String matching, palindromes, conversions
 │   ├── linked_lists/              # Pointer rewiring, fast & slow pointers, dummy nodes
