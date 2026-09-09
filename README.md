@@ -1,6 +1,6 @@
 # Systems & Algorithmic Engineering Lab
 
-A repository dedicated to end-to-end Python & C++ engineering mastery, algorithmic problem-solving on the **Road to 100**, PyTorch generative transformer architectures, and low-level C++ memory systems.
+A repository dedicated to end-to-end Python & C++ engineering mastery, algorithmic problem-solving on the **Road to 1000**, PyTorch generative transformer architectures, and low-level C++ memory systems.
 
 ---
 
