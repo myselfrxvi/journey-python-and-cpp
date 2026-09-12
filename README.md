@@ -38,9 +38,9 @@ A repository dedicated to end-to-end Python & C++ engineering mastery, algorithm
 
 ---
 
-## LeetCode: Road to 100
+## LeetCode: The Grand Quest (Goal: 4,047 Problems)
 
-A structured pursuit of 100 algorithmic challenges emphasizing optimal time complexity, minimal auxiliary space, and clean code.
+A structured pursuit of conquering every single algorithmic challenge on LeetCode, emphasizing optimal time complexity, minimal auxiliary space, and clean code.
 
 ### Highlights by Topic:
 - **Hard Tier:**
