@@ -1,6 +1,6 @@
 # Systems & Algorithmic Engineering Lab
 
-A repository dedicated to end-to-end Python & C++ engineering mastery, algorithmic problem-solving on the **Road to 1000**, PyTorch generative transformer architectures, and low-level C++ memory systems.
+A repository dedicated to end-to-end Python & C++ engineering mastery, algorithmic problem-solving on **The Grand Quest (50 / 4,047 Solved)**, PyTorch generative transformer architectures, and low-level C++ memory systems.
 
 ---
 
@@ -8,7 +8,7 @@ A repository dedicated to end-to-end Python & C++ engineering mastery, algorithm
 
 ```text
 .
-├── leetcode/                      # Categorized LeetCode Solutions (Road to 1000)
+├── leetcode/                      # Categorized LeetCode Solutions (The Grand Quest)
 │   ├── arrays/                    # In-place two pointers, prefix sums, sliding window
 │   ├── strings/                   # String matching, palindromes, conversions
 │   ├── linked_lists/              # Pointer rewiring, fast & slow pointers, dummy nodes
